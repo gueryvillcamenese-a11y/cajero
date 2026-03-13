@@ -1,0 +1,44 @@
+name: cajero
+description: "Sistema Demi Cashier - Modulo Cajero"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Iconos y diseño
+  cupertino_icons: ^1.0.8
+
+  # Escáner y Permisos
+  mobile_scanner: ^5.1.0
+  permission_handler: ^11.3.1
+
+  # Gestión de Estado y Service Locator (Necesarios para sl())
+  provider: ^6.1.5+1
+  get_it: ^7.7.0
+  equatable: ^2.0.5
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+#   - assets/images/
+
+# Se comentan las fuentes porque los archivos físicos no existen aún en assets/fonts/
+# fonts:
+#   - family: Inter
+#     fonts:
+#       - asset: assets/fonts/Inter-Regular.ttf
+#       - asset: assets/fonts/Inter-Bold.ttf
+#         weight: 700
